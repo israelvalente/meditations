@@ -9,7 +9,7 @@
     --font2: 'Mont Serrat';
     --font3: 'Edu SA Beginner', regular 400;
 }
-
+   
 * {
     margin: 0px;
     padding: 0px;
@@ -94,7 +94,15 @@ section#meditate {
     font-family: var(--font3);
     font-size: 3vw;
 }
-
+iframe#screen {
+    width: 90vw;
+    height: 400px;
+    border: 2px solid darkred;
+}
+section.final {
+    margin-left: 40px;
+    padding: auto;
+}
 footer {
     background-color: black;
     color: white;
