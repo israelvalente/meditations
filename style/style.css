@@ -82,7 +82,11 @@ section.image > p {
 }
 
 section#img01 {
-    background-image: url('../image/tree-by-the-river.jpg');
+    background-image: url('../image/tree.jpg');
+    background-position: center bottom;
+}
+section#img02 {
+    background-image: url('../image/bible.jpg');
     background-position: center bottom;
 }
 
