@@ -100,8 +100,8 @@ iframe#screen {
     border: 2px solid darkred;
 }
 section.final {
-    margin-left: 40px;
-    padding: auto;
+    text-align: center;
+    padding: 30px;
 }
 footer {
     background-color: black;
