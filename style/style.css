@@ -82,8 +82,8 @@ section.image > p {
 }
 
 section#img01 {
-    background-image: url('../image/tree.jpg');
-    background-position: center bottom;
+    background-image: url('../image/Dann.jpg');
+    background-position: 100vw;
 }
 section#img02 {
     background-image: url('../image/bible.jpg');
