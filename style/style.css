@@ -12,7 +12,7 @@
    
 * {
     margin: 0px;
-    padding: 0px;
+    padding: 20px;
     font-size: 1em;
 }
 
@@ -32,7 +32,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font1);
-    font-size: 10vw;
+    font-size: 8vw;
 }
 
 header > p {
@@ -55,7 +55,7 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font2);
-    font-size: 3.5vw;
+    font-size: 6vw;
 }
 
 section > p {
@@ -72,22 +72,26 @@ section.image {
     box-shadow: inset black;
     background-size: cover;
     background-attachment: fixed;
+    height: 600px;
 }
 
 section.image > p {
     display: inline-block;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.548);
-    text-shadow: 1px 1px 0px black;
+    text-shadow: 3px 5px 15px black;
+    height: 600px;
 }
 
 section#img01 {
-    background-image: url('../image/Dann.jpg');
-    background-position: left center;
+    background-image: url('../image/tree.jpg');
+    background-position: center bottom;
+    height: fit-content;
 }
 section#img02 {
     background-image: url('../image/bible.jpg');
-    background-position: center bottom;
+    background-position: center center;
+    height: fit-content;
 }
 
 section#meditate {
@@ -96,7 +100,7 @@ section#meditate {
     line-height: 1em;
     padding-left: 30px;
     font-family: var(--font3);
-    font-size: 3vw;
+    font-size: 6vw;
 }
 iframe#screen {
     width: 90vw;
